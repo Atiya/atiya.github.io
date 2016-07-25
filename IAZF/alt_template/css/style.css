@@ -1,8 +1,7 @@
 /* -------------------------------- 
-
 Primary style
-
 -------------------------------- */
+
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -32,12 +31,11 @@ a {
 }
 
 /* -------------------------------- 
-
-Modules - reusable parts of our design
-
+Modules - reusable parts of the design
 -------------------------------- */
 .cd-container {
-  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it 
+  reaches that max-width */
   width: 90%;
   max-width: 768px;
   margin: 0 auto;
@@ -50,9 +48,7 @@ Modules - reusable parts of our design
 }
 
 /* -------------------------------- 
-
 Main components 
-
 -------------------------------- */
 .cd-header {
   position: fixed;
@@ -168,7 +164,7 @@ Main components
 }
 
 .cd-main-content {
-  /* you need to assign a min-height to the main content so that the children can inherit it*/
+  /* assign a min-height to the main content so that the children can inherit it*/
   height: 100%;
   position: relative;
   z-index: 1;
@@ -202,16 +198,16 @@ Main components
   color: white;
 }
 .cd-fixed-bg.cd-bg-1 {
-  background-image: url("/images/photo_earth1020.jpeg"); /*----- switched from ../img/cd-background-1.jpg-----*/
+  background-image: url("../img/photo_earth1020.jpeg"); /*----- switched from ../img/cd-background-1.jpg-----*/
 }
 .cd-fixed-bg.cd-bg-2 {
-  background-image: url("/images/photo-earth5040.jpeg"); /*-----switched from../img/cd-background-2.jpg-----*/
+  background-image: url("../img/photo-earth5040.jpeg"); /*-----switched from../img/cd-background-2.jpg-----*/
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("/images/photo_celestial_1920.jpeg"); /*-----switched from../img/cd-background-3.jpg-----*/
+  background-image: url("../img/photo_celestial_1920.jpeg"); /*-----switched from../img/cd-background-3.jpg-----*/
 }
 .cd-fixed-bg.cd-bg-4 {
-  background-image: url("/images/cd-background-4.jpg");
+  background-image: url("../img/cd-background-4.jpg");
 }
 @media only screen and (min-width: 768px) {
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
