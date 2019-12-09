@@ -1,0 +1,75 @@
+/**
+ * index.css
+ * - Add any styles you want here!
+ */
+
+body {
+  color-background: #000000;
+  margin: 0;
+  font-family: Arial;
+  background-color:#000000
+      }
+      
+   * {
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  border: 1px solid red;
+  padding: 15px;
+}
+
+.main {
+  width: 75%;
+  float: left;
+  border: 1px solid red;
+    }
+
+.menu {
+  width: 25%;
+  float:left;
+  border: 1px solid blue;
+      }
+
+
+.footer{
+      border: 1px solid green;
+        }
+
+  p {
+  text-align:center;
+  font-family:sans-serif;
+    }
+   
+   .right {
+     display: block;
+   }
+     
+.center {
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+        }
+
+  li {
+  list-style-type: none;
+      }
+
+
+/* Might use these later just testing things.*/
+
+/*html {
+    background-color: #000000;
+    }*/
+    
+/*.one {
+  height: auto;
+  width: auto;
+}
+
+.two {
+  height: auto;
+  width: 130%;
+}*/
