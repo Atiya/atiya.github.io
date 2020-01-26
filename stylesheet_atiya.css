@@ -4,26 +4,6 @@ body {
   background-color:#000000
       }
       
-.header {
-  border: 1px solid red;
-  padding: 15px;
-}
-
-.menu {
-  width: 25%;
-  float:left;
-  border: 1px solid blue;
-      }
-
-.main {
-  width: 75%;
-  float: right;
-  border: 1px solid blue;
-    }
-
-.footer{
-      border: 1px solid green;
-        }
 
   p {
   text-align:center;
