@@ -13,34 +13,26 @@ img { float:none;
 .tag {color:white;
       background-color: black;
       font-family: arial, sans-serif;
-      height: 40px;
       float: center;
-      padding-top:0;
       padding-bottom: 70px;
+      margin_left: 55px;
       }
 
-/*.wrapper {
-   width: 70%;
-   margin: 0 auto;
-        }*/
-
-p {
-  text-align: center;
-  font-family: Arial, sans-serif;
-  font-color: white;
-    }
+/*.textbottom {vertical-align:text-bottom;}*/
   
-
 /* Style the navigation menu */
 .navbar {
-  width: 100%;
+  width: 70%;
   overflow: auto;
+  align: center;
+  font-
 }
 
 .navbar {
-  width: 100%;
+  width: 60%;
   background-color: #000;
   overflow: auto;
+  align: center;
         }
   
 /* Navigation links */
@@ -54,12 +46,14 @@ p {
           } 
 
 .navbar a:hover {
-  background-color: black;
+  background-color:#000;
+  color: lime;
 }
 
 .navbar a.active {
-  background-color: #0C090A0;
-}
+  background-color: #000;
+  color: cyan;
+    }
 
 @media screen and (max-width: 500px) {
   .navbar a {
