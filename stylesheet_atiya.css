@@ -1,32 +1,35 @@
 
 body {
-  margin: 0;
+  margin-left: 15%;
   font-family: Arial, sans-serif;
-  background-color: #000000;
-      }  
+  background-color: #000;
+      }
 
-.wrapper{
+img { float:none;
+      padding: 0;
+      margin-left: 55px;
+        }
+
+.tag {color:white;
+      background-color: black;
+      font-family: arial, sans-serif;
+      height: 40px;
+      float: center;
+      padding-top:0;
+      padding-bottom: 70px;
+      }
+
+/*.wrapper {
    width: 70%;
    margin: 0 auto;
-}
-
-img { float: left;
-      padding: 200px;
-      margin-left: 55px;
-  }
+        }*/
 
 p {
   text-align: center;
   font-family: Arial, sans-serif;
   font-color: white;
     }
-    
-.center {
-  display: block;
-  margin-left: 25%;
-  margin-right: 25%;
-  width: 50%;
-        }
+  
 
 /* Style the navigation menu */
 .navbar {
