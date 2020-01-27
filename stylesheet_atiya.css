@@ -5,54 +5,64 @@ body {
   background-color: #000;
       }
 
-img { float:none;
-      padding: 0;
-      margin-left: 55px;
+.wrapper {width: 90%;
+          }
+
+.container {  width: 100%;
+              height: auto;
+              padding:1%;}
+
+.imagedetails { margin-left:2%;
+                float: left;
+                }
+
+img { float:left;
+      margin-left: 0px;
         }
 
-.tag {color:white;
+.tag { color: white;
       background-color: black;
       font-family: arial, sans-serif;
-      float: center;
-      padding-bottom: 70px;
-      margin_left: 55px;
+      padding-top: 240px;
+      padding-bottom: 60px;
+      margin_left: 0px;
+      width:100%;
+     
       }
 
 /*.textbottom {vertical-align:text-bottom;}*/
+
   
 /* Style the navigation menu */
-.navbar {
-  width: 70%;
-  overflow: auto;
-  align: center;
-  font-
-}
+
 
 .navbar {
-  width: 60%;
+  max-width: 100%;
   background-color: #000;
   overflow: auto;
   align: center;
+  overflow: auto;
+ 
         }
   
 /* Navigation links */
 .navbar a {
-  float: right;
+  float:right;
   padding: 12px;
   color: cyan;
   text-decoration: none;
   font-size: 17px;
-  width: 15%;
+  width: 17%;
           } 
 
 .navbar a:hover {
   background-color:#000;
-  color: lime;
+  color: beige;
 }
 
 .navbar a.active {
   background-color: #000;
-  color: cyan;
+  color: grey;
     }
 
 @media screen and (max-width: 500px) {
@@ -65,17 +75,3 @@ img { float:none;
 
 
 
-/* Might use these later just testing things.*/
-
-/*html {
-    background-color: #000000;
-    }*/
-    
-/*.one {
-  height: auto;
-  width: auto;
-}
-.two {
-  height: auto;
-  width: 130%;
-}*/
