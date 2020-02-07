@@ -1,41 +1,112 @@
-/**
- * index.css
- * - Add any styles you want here!
- */
+html {  
+    font-size: 20px;       
+      }
+
 
 body {
-  margin: 0;
-  font-family: Arial;
-  background-color: black;
+    font-size: 100%;     /* flexible baseline */
+    line-height: 1.4;
+    margin-left: 15%;
+    font-family: Arial, sans-serif;
+    background-color: #000;
       }
 
 
-  p {
-  text-align:center;
-  font-family:sans-serif;
-    }
-   
-ul  {
-  display: table
-    }
-    
- li {
-   display: table-cell
+.container {    
+            width: 100%;
+            height: auto;
+            padding: 1%;
+            float: center;
+            }
+
+.imagedetails { 
+          margin-left:10%;
+          float: left;
+                }
+
+img { float:left;
+      margin-left: 0px;
+        }
+
+.tag { color: white;
+      font-size: 100%; 
+      font-style: italic;
+      background-color: black;
+      font-family: arial, sans-serif;
+      padding-top: 265px;
+      padding-bottom: 60px;
+      margin_left: 0px;
+      width:100%;
+     
       }
 
+/*.textbottom {vertical-align:text-bottom;}*/
 
-/* Might use these later just testing things.*/
+  
+/* Style the navigation menu */
 
-/*html {
-    background-color: #000000;
-    }*/
-    
-/*.one {
-  height: auto;
-  width: auto;
+
+.navbar {
+  max-width: 100%;
+  background-color: #000;
+  overflow: auto;
+  align: center;
+  overflow: auto;
+ 
+        }
+  
+/* Navigation links */
+.navbar a {
+  float:left;
+  padding: 12px;
+  color: cyan;
+  text-decoration: none;
+  font-size: 17px;
+  width: 17%;
+          } 
+
+.navbar a:hover {
+  background-color:#000;
+  color: #2EFD51;
+  font-weight: bold;
 }
 
-.two {
-  height: auto;
-  width: 130%;
-}*/
+.navbar a.active {
+  background-color: #000;
+  color: grey;
+    }
+
+.flex-container {
+                   display: flex;
+                   flex-wrap: wrap;
+      }
+
+.flex-container > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+                      }
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: right;
+  }
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .nav {
+    width:100%;
+  }
+  .nav-item {
+    width:50%;
+    float:none;
+  }
+}
+
+
+
