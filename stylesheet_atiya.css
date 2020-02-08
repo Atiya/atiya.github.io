@@ -1,6 +1,6 @@
 body {
     font-size: 100%;     /* flexible baseline */
-    line-height: 1.4;
+    /*line-height: 1.4;*/
     margin-left: 15%;
     font-family: Arial, sans-serif;
     background-color: #000;
@@ -21,31 +21,32 @@ img {
       font-size: 100%; 
       font-style: italic;
       background-color: black;
-      font-family: arial, sans-serif;
+      font-family: arial, helvetica, sans-serif;
       padding-top: 290px;
       padding-bottom: 60px;
-      margin_left: 0px;
       max-width:80%;
+      }
+
+ul li {
+      display:inline;
       }
 
 .navbar {
       max-width: 100%;
       background-color: #000;
       overflow: auto;
-      align: center;
-      overflow: auto;
+      align: left;
       margin-top: 100px;
         }
   
 /* Navigation links */
 .navbar a {
-        float:right;
+        float: left;
         color: cyan;
-        padding: 11px;
-        text-decoration: none;
+        padding: 9px;
         font-size: 20px;
         font-weight: bold;
-        width: 10%;
+        width: 11%;
           } 
 
 .navbar a:hover {
@@ -94,7 +95,7 @@ img {
 
 @media screen and (max-width: 600px) {
   .navbar a {
-    float: none;
+    float: right;
     display: block;
     width:100%;
     text-align: right;
@@ -102,7 +103,6 @@ img {
   
   .imagewcaption:{
     float: clear-left;
-    
   }
 }
   
@@ -114,7 +114,5 @@ img {
     width:100%;
     float:none;
   }
-
-
 
 
