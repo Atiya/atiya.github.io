@@ -1,0 +1,66 @@
+header{
+    background-color: black;
+    margin:0px 0px 40px auto;
+      }
+
+  body{
+    background-color: white;
+    font-family: arial, sans-serif;
+    } 
+
+div.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: bottom;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 400px;
+    height 500px
+    margin-right: 3px;
+        }
+
+img {
+    width: 200px;
+    background-color: white;
+      }
+
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: inline-block;
+    width: 250px;
+    margin: 0px 0px 40px auto;
+          }
+
+.navbar {
+  max-width: 100%;
+  background-color: #000;
+  overflow: auto;
+  align: center;
+  overflow: auto;
+        }
+  
+/* Navigation links */
+.navbar a {
+  float:left;
+  padding: 12px;
+  color: cyan;
+  text-decoration: none;
+  font-size: 17px;
+  width: 17%;
+          } 
+
+.navbar a:hover {
+            background-color:#000;
+            color: beige;
+                }
+
+.navbar a.active {
+          background-color: #000;
+          color: grey;
+                 }
+
+footer{
+  background-color: black;
+      }
+
